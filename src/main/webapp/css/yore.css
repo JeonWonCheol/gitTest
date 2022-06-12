@@ -1,0 +1,260 @@
+@charset "EUC-KR";
+
+a:link
+{
+	text-decoration: none;	
+}
+
+textarea
+{
+	resize: none;
+}
+
+html, body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: snas-serif;
+}
+
+#wrap 
+{
+  min-height: 100vh;
+  position: relative;
+  width: 100%; 
+  background-color: #f2f2f2;
+}
+
+section 
+{
+  padding-bottom: 105px;
+}
+
+/* =================== index h3글자 ================ */
+
+#g
+{
+	color: #64a70a;
+}
+
+/* =================== menu ================ */
+
+h3
+{
+	font-family: inherit;
+    font-weight: normal;
+    line-height: 140%;
+    font-size: 24px;
+    color: inherit;
+}
+
+.menu_wrap
+{
+	margin:0 auto;
+}
+
+
+.menu
+{
+    background-color : #74B243;
+	height: 46px;
+	width: 100%;
+	text-align: center;
+	box-shadow: 0px 2px 5px #D7D7D7;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-weight:bold;
+	padding-top:5px;
+
+	
+}
+
+.menu li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 100px 0px 100px;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+}
+
+
+.menu a
+{
+	text-decoration-line: none;
+	color: white;
+}
+
+.menu a:hover 
+{
+	color:#FFFF16; 
+}
+
+.menu_clicked
+{
+	color:#FFFF16; 
+	font-weight:bold;
+}
+
+/* =================== 검색어 입력 ================ */
+/* <td width="20%">
+	<div class="mainsearch">
+	  <form name="search" method="post" action="search.html">
+		<input type="text" class="mainsearch_input" placeholder="검색어 입력">
+		<input type="image" class="mainsearch_img" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+	  </form>
+	</div>
+</td> */
+
+.mainsearch {
+  position: relative;
+  width: 280px;
+  margin: 115px 0px 10px 30px;
+}
+
+.mainsearch_input {
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.mainsearch_img {
+  position : absolute;
+  width: 17px;
+  top: 10px;
+  right: 12px;
+  margin: 0;
+}
+
+/* =================== 로그인 회원가입 ================ */
+
+.joinlogin a
+{
+	vertical-align:bottom;
+	
+}
+
+/* =================== footer ================ */
+
+footer 
+{
+  width: 100%;
+  height: 90px;
+  bottom: 0px;
+  position: absolute;
+  border-top: 1px solid #c4c4c4;
+  padding-top: 15px;
+  color: #808080;
+  font-size: 11px;
+  z-index: 0;
+}
+
+footer a 
+{
+  display: inline-block;
+  margin: 0 20px 10px 20px;
+  color: #808080; font-size: 11px;
+}
+
+footer a:visited 
+{
+  color: #808080;
+}
+
+footer p 
+{
+  margin-top: 0; margin-bottom: 0;   
+}
+
+footer p span 
+{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+/* =================== 셀 가운데 정렬 ================ */
+
+.table_center td {
+
+	padding : 1em;
+
+}
+
+.table_center {
+
+	display : table;
+	margin-left : auto;
+	margin-right : auto;
+
+}
+
+/* =================== 로그인 ================ */
+
+.login 
+{
+    width: 1000px;
+    margin: 200px auto auto auto;
+    text-align: center;
+}
+
+/* =================== 페이징 a 태그 ================ */
+.paging			  { padding-top:25px; text-align:center; }
+.paging 		  { padding:3px; MARGIN:3px; TEXT-ALIGN: center }
+.paging a 		  { padding:5px 8px 4px 8px; MARGIN: 2px; BORDER: #ccc 1px solid; COLOR: #999; TEXT-DECORATION: none }
+.paging a:hover   { BORDER:#999 1px solid; COLOR: #666; }
+.paging a:active  { BORDER:#999 1px solid; COLOR: #666; }
+.paging .current  { BORDER: #117bff 1px solid; padding:5px 8px 4px 8px; FONT-WEIGHT: bold; MARGIN: 2px; COLOR: #036cb4; }
+.paging .disabled { BORDER: #eee 1px solid; padding:5px 8px 4px 8px; MARGIN: 2px; COLOR: #ddd; }
+
+
+
+/* =================== 강사님이 주신 것 ================ */
+
+a.btn.green			{margin-left:2px; background:#6DA93D; }/*일반버튼*//*조금작은크기*/
+a.btn.orange		{margin-left:2px; background:#F26F1D; }/*일반버튼*//*조금작은크기*/
+a.btn.mint			{margin-left:2px; background:#44B6B5; color:white;}/*일반버튼*//*조금작은크기*/
+
+a.btn				{display:inline-block; min-width:60px; height:auto; text-decoration:none !important; padding:6px 10px; color:#fff; font-size:14px; line-height:17px; text-align:center; vertical-align:middle; 
+					font-family:NGB,'나눔고딕',NanumGothic,NG,'돋움',dotum,Helvetica,sans-serif; font-weight:600; /*box-shadow:1px 1px 3px rgba(0,0,0,0.5);*/}
+a.btn:hover			{}
+a.btn.sfn			{margin-left:2px; background:#0078e0; }/*처리용*//*조금작은크기*/
+a.btn.sfnmore		{margin-left:2px; background:#0081a6; }/*처리용다른색*//*조금작은크기*/
+a.btn.sfnr			{margin-left:2px; background:#ff6600; }/*처리용다른색*//*조금작은크기*/
+a.btn.sfnm			{margin-left:2px; background:#f90000; }/*처리용다른색*//*조금작은크기*/
+a.btn.sfno			{margin-left:2px; background:#ea7d35; }/*처리용다른색*//*조금작은크기*/
+a.btn.green			{margin-left:2px; background:#6DA93D; }/*일반버튼*//*조금작은크기*/
+a.btn.orange		{margin-left:2px; background:#F26F1D; }/*일반버튼*//*조금작은크기*/
+
+a.btn.fn			{margin-left:2px; background:#0078e0; padding:8px 10px; }/*처리용*/
+a.btn.fnr			{margin-left:2px; background:#ff6600; padding:8px 10px; }/*처리용 삭제*/
+a.btn.fnmore		{margin-left:2px; background:#0081a6; padding:8px 10px; }/*처리용다른색*/
+a.btn.fnnomal		{margin-left:2px; background:#788090; padding:8px 10px; }/*일반버튼*/
+
+.btnButton {
+  border: 1px solid #777;
+  background: #74B243;
+  color: #fff;
+  font: bold 13px 'Trebuchet MS';
+  padding: 10px;
+  cursor: pointer;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+.searchbtnButton {
+  width:3cm;
+  border: 1px solid #777;
+  background: #74B243;
+  color: #fff;
+  font: bold 16px 'Trebuchet MS';
+  padding: 10px;
+  margin:20px;
+  cursor: pointer;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+
